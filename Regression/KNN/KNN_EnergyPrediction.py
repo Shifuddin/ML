@@ -15,7 +15,7 @@ Load feature values as X and target as Y
 here we read day dataset
 '''
 uri = 'https://archive.ics.uci.edu/ml/machine-learning-databases/00374/energydata_complete.csv'
-X, y = load_csv(uri,',', 1,27,27,28)
+X, y = load_csv(uri,',', 1,27,27,28, True)
 
 '''
 Split into training and test set

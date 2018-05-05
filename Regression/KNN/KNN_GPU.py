@@ -16,7 +16,7 @@ Load feature values as X and target as Y
 here we read day dataset
 '''
 uri = 'https://archive.ics.uci.edu/ml/machine-learning-databases/00440/sgemm_product_dataset.zip'
-X, y = load_zip(uri, 'sgemm_product.csv', 0,14, 15,19)
+X, y = load_zip(uri, 'sgemm_product.csv', 0,14, 15,19, True)
 
 '''
 Split into training and test set

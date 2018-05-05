@@ -15,7 +15,7 @@ here we read day dataset
 '''
 
 uri = 'https://archive.ics.uci.edu/ml/machine-learning-databases/cpu-performance/machine.data'
-X,y = load_csv(uri, ',', 2,9, 9,10)
+X,y = load_csv(uri, ',', 2,9, 9,10, True)
 
 '''
 Split into training and test set

@@ -16,7 +16,7 @@ Load feature values as X and target as Y
 here we read day dataset
 '''
 uri = 'https://archive.ics.uci.edu/ml/machine-learning-databases/00244/fertility_Diagnosis.txt'
-X,y = load_csv(uri, ',', 0,9,9,10)
+X,y = load_csv(uri, ',', 0,9,9,10, True)
 y = pd.get_dummies(y.ravel(), drop_first=True)
 
 '''

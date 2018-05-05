@@ -15,7 +15,7 @@ here we read day dataset
 '''
 
 uri = 'https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/slump/slump_test.data'
-X,y = load_csv(uri, ',', 1,8, 8,11)
+X,y = load_csv(uri, ',', 1,8, 8,11, True)
 
 '''
 Split into training and test set
